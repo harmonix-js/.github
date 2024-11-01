@@ -1,5 +1,9 @@
 [![Harmonix banner](https://github.com/harmonix-js/core/blob/main/.github/assets/banner.svg?raw=true)](https://harmonix-js.netlify.app)
 
+<p align=center>Open-source framework to make Discord bots.</p>
+
+<br />
+
 <p align=center>
   <a href="https://www.npmjs.com/package/@harmonix-js/core"><img src="https://img.shields.io/npm/v/@harmonix-js/core?style=flat&colorA=191717&colorB=304ffe" alt="Version"></a>
   <a href="https://www.npmjs.com/package/@harmonix-js/core"><img src="https://img.shields.io/npm/dm/@harmonix-js/core.svg?style=flat&colorA=191717&colorB=304ffe" alt="Downloads"></a>
@@ -8,47 +12,18 @@
   <a href="https://discord.gg/A3rVnG4JGV"><img src="https://img.shields.io/badge/Harmonix%20Discord-18181B?logo=discord&logoColor=304ffe" alt="Discord"></a>
 </p>
 
-# Harmonix
+<br />
 
-Open-source framework to make Discord bots.
-
-## ⚡ Quick Start
-
-This will set up a starter project with all the required files and dependencies:
+TypeScript framework, user-friendly, and robust solution to create bots. It automates all repetitive tasks, allowing you to concentrate on developing your bot features with assurance.
 
 ```bash
 npx @harmonix-js/cli init <my-bot>
 ```
 
-## 🤖 Development
-
-Harmonix offers a straightforward, user-friendly, and robust solution for writing commands naturally. It automates all repetitive tasks, allowing you to concentrate on developing your bot features with assurance.
-
-Example of a `commands/ping.ts`:
-
-```ts
-import { defineCommand } from '@harmonix-js/core'
-
-export default defineCommand(
-  {
-    description: 'Ping command'
-  },
-  (client, interaction) => {
-    interaction.reply('Pong!')
-  }
-)
-```
-
 ## 📖 Documentation
 
-Check out the Harmonix documentation to enhance your skills. It's an excellent resource for deepening your understanding of the framework, covering a large bunch of topics.
+The documentation is available on [harmonix-js.netlify.app](https://harmonix-js.netlify.app/).
 
 ## 🤝 Contribution
 
 We welcome your support to enhance Harmonix. To do that you can report bugs or give us feedback and ideas.
-
-## ⚖️ License
-
-Published under the [MIT](https://github.com/harmonix-js/core/blob/main/LICENSE) license.
-
-
