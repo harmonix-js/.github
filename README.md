@@ -1,4 +1,4 @@
-[![Harmonix banner](./.github/assets/banner.svg)](https://harmonix-js.netlify.app)
+[![Harmonix banner](https://github.com/harmonix-js/core/blob/main/.github/assets/banner.svg?raw=true)](https://harmonix-js.netlify.app)
 
 <p align=center>
   <a href="https://www.npmjs.com/package/@harmonix-js/core"><img src="https://img.shields.io/npm/v/@harmonix-js/core?style=flat&colorA=191717&colorB=304ffe" alt="Version"></a>
