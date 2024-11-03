@@ -1,6 +1,6 @@
 [![Harmonix banner](https://github.com/harmonix-js/core/blob/main/.github/assets/banner.svg?raw=true)](https://harmonix-js.netlify.app)
 
-<p align=center>Open-source framework to make Discord bots.</p>
+<p align=center>🤖 Open-source framework to make Discord bots.</p>
 
 <br />
 
